@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Anuncio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Nuevo Anuncio</h1>
+    <div class="messages"></div>
+    <form novalidate>
+        <textarea name="name" placeholder="Nombre del anuncio" required autofocus></textarea>
+        <textarea name="price" placeholder="00.00€"></textarea>
+        <select name="buy_sell">
+            <option value="Compra">Compra</option>
+            <option value="Venta">Venta</option>
+        </select>
+        <button type="submit">Crear</button>
+    </form>
+    <script type="module" src="js/new.js"></script>
+</body>
+
+</html>
