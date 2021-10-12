@@ -60,7 +60,6 @@ export default {
         }
         if (this.isAuthenticated()) {
             const token = localStorage.getItem('AUTH_TOKEN')
-            // requestConfig.headers.Authorization = `Bearer ${token}`
             requestConfig.headers['Authorization'] = `Bearer ${token}`
         }
         const response = await fetch(url, requestConfig)

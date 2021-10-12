@@ -1,5 +1,6 @@
-import { adView, createButtonView } from '../views.js'
+import { adView, menuView } from '../views.js'
 import DataService from '../services/DataService.js'
+
 
 
 export default class AdListController {
@@ -24,7 +25,7 @@ export default class AdListController {
 
     showCreateButton() {
         if (DataService.isAuthenticated()) {
-            this.element.innerHTML = createButtonView()
+            this.element.innerHTML = menuView()
         }
     }
 

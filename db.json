@@ -1,0 +1,61 @@
+{
+    "users": [
+        {
+            "username": "usuario1",
+            "password": "$2b$10$0u.SGEV1zDk9Wihge0Ov7.Q2MIP1VSPudNaRk6ymj8DLZopWS5on.",
+            "id": 1
+        },
+        {
+            "username": "usuario2",
+            "password": "$2b$10$h7wjuyeuEGNqih88cLx8uOSjw3.Koo./I5dFP/yyudfNbSJCxiCQm",
+            "id": 2
+        },
+        {
+            "username": "usuario3",
+            "password": "$2b$10$2RrqKmNR.nDFk7Bq/i/Gru94b5pib5ahCXHP8bvndaFY2ShNj7jaG",
+            "id": 3
+        }
+    ],
+    "ads": [
+        {
+            "name": "Auriculares",
+            "status": "Venta",
+            "price": 35.25,
+            "userId": 1,
+            "updatedAt": "2021-10-11T19:54:37.880Z",
+            "id": 3
+        },
+        {
+            "name": "Nintendo Switch",
+            "status": "Compra",
+            "price": 199.99,
+            "userId": 2,
+            "updatedAt": "2021-10-11T19:55:39.378Z",
+            "id": 4
+        },
+        {
+            "name": "Zapatos",
+            "price": 13.67,
+            "status": "Compra",
+            "userId": 1,
+            "updatedAt": "2021-10-11T21:52:48.824Z",
+            "id": 22
+        },
+        {
+            "name": "Televisión",
+            "price": 500,
+            "status": "Venta",
+            "userId": 1,
+            "updatedAt": "2021-10-11T22:22:59.579Z",
+            "id": 23
+        },
+        {
+            "name": "Bicicleta",
+            "price": 99.88,
+            "status": "Compra",
+            "userId": 3,
+            "updatedAt": "2021-10-11T22:46:42.129Z",
+            "id": 24
+        }
+    ]
+}

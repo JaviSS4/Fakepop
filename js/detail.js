@@ -10,10 +10,8 @@ window.addEventListener('DOMContentLoaded', function () {
     const loaderDiv = document.querySelector('.loader')
     new LoaderController(loaderDiv)
 
-    // obtengo el ID del ad a cargar de la URL
     const id = new URLSearchParams(window.location.search).get('id')
 
-    // instanciamos el controlador del detalle del ad
     const adDiv = document.querySelector('.ad')
     new AdDetailController(adDiv, id)
 

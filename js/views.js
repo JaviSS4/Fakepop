@@ -9,7 +9,7 @@ export function adView(ad) {
 </a>`
 }
 
-export function createButtonView() {
+export function menuView() {
 
     return `<ul>
         <li><a href="/new.html">
